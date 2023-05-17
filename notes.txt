@@ -4,3 +4,8 @@
 <!-- git revert: undoes a change to a specific commit, makes it so it never happened. we still have access to it in the history, it just reverts it and you'll see a reverted copy at the top. The top commit will have the fixed version and will say Revert in front of it-->
 
 <!-- git reset(most dangerous): permanently takes you back in time to a previous commit and deletes the other commits ahead of it. if you do git reset <hash>, it will not change anything in your code editor, if you do git reset <hash> --hard, then it will-->
+
+Merging: You want to be on the branch that you want to merge into (master);
+run: git merge <branch name>
+
+Merge Conflict: resolve, add <file>, commit with no message, shift colon wq out of the editor
