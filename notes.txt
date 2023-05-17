@@ -1,0 +1,6 @@
+<!-- mkdir: makes a folder, touch: makes a file, rm -rf: removes a file -->
+<!-- git checkout: safe,  checks out to a previous commit in time but does not alter the commit history. This way you can 'check out' the state of the code as it was in a particular point in time--> 
+
+<!-- git revert: undoes a change to a specific commit, makes it so it never happened. we still have access to it in the history, it just reverts it and you'll see a reverted copy at the top. The top commit will have the fixed version and will say Revert in front of it-->
+
+<!-- git reset(most dangerous): permanently takes you back in time to a previous commit and deletes the other commits ahead of it. if you do git reset <hash>, it will not change anything in your code editor, if you do git reset <hash> --hard, then it will-->
